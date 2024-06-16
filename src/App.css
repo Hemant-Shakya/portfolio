@@ -1,0 +1,285 @@
+
+*{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  } 
+  
+  .img{
+      height: 5rem;
+      width: 8rem;
+     
+  }
+  
+  .nav{
+      font-size: 2rem;
+      text-decoration: none;
+      color: greenyellow;
+      
+      
+     
+      }
+  
+  .Menu_active{
+      
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      background-color: rgb(113, 89, 124);
+      line-height: 4rem;
+      overflow: hidden;
+      position: sticky;
+      top: 0;
+      border-bottom: 1px solid gray;
+      
+      
+      }
+  .burger-menu
+        {
+          display: none;
+          
+        }
+
+  .nav:hover{
+    color: red;
+  }
+
+  .home-text{
+    margin-top: 4rem;
+    
+    }
+  .home-text h2{
+    color:red;
+  }
+  .home-text :nth-child(3){
+    color : gray;
+  }
+
+  .home-img img{
+    height: 20 rem;
+    width: 20rem;
+    border-radius: 40%;
+
+  }
+
+  .home-main
+  {
+    display: block;
+    justify-content: space-between;
+  }
+
+  .sicon{
+    
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 30rem;
+    font-size: 30px;
+    position:fixed;
+    gap: 6px;
+    transform: translate(200px);
+    
+    
+    }
+
+    .sicon .f
+    {
+      /* border: 1px solid rgb(26, 26, 198); */
+      background-color: rgb(14, 146, 212);
+      border-radius: 2px;
+      width: 250px;
+     
+
+    }
+    .sicon .f a{
+      text-decoration: none;
+      color: white;
+      
+      
+    }
+
+    .sicon .l a{
+      text-decoration: none;
+      color: white;
+      
+    }
+
+    .sicon .w a{
+      text-decoration: none;
+      color: white;
+      
+    }
+    .sicon .l
+    {
+      /* border: 1px solid rgb(38, 15, 211); */
+      background-color: rgb(17, 39, 151);
+      border-radius: 2px;
+      width: 250px;
+
+    }
+    .sicon .w 
+    {
+      /* border: 1px solid rgb(23, 191, 74); */
+      background-color: rgb(7, 180, 4);
+      border-radius: 2px;
+      width: 250px;
+
+    }
+
+    .sicon .f:hover{
+        transform: translate(-150px,0);
+        transition: 1s;
+        transition-property: transform;
+    }
+
+    .sicon .l:hover{
+      transform: translate(-150px,0);
+      transition: 1s;
+      transition-property: transform;
+      }
+
+  .sicon .w:hover{
+    transform: translate(-150px,0);
+    transition: 1s;
+    transition-property: transform;
+    }
+    
+
+    .about-1
+    {
+      margin-top: 3rem;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      color: blueviolet;
+      
+    }
+    .about-2
+    {
+      display: flex;
+      align-items: center;
+      text-align: center;
+     justify-content: center;
+      
+      
+    }
+
+   .ex-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+   }
+
+   .ex-main .ex-1
+   {
+    height: 15rem;
+    width: 22rem;
+    
+   }
+
+   .ex-1:hover
+   {
+    animation: rotation 10s infinite linear;
+   }
+   @keyframes rotation{
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+   }
+   
+
+   .ex-main h2{
+    text-align: center;
+   }
+
+   .contact-form{
+    display: grid;
+    width: 50%;
+    margin: auto auto;
+    margin-top: 8rem; 
+  
+
+   }
+
+   .sr-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+   }
+
+   .sr-main .sr-1
+   {
+    height: 15rem;
+    width: 22rem;
+    
+   }
+   .sr-main h2{
+    text-align: center;
+   }
+
+  
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  @media screen and (max-width: 480px)
+  {
+    *{
+      margin-left: 2px;
+      margin-right: 2px;
+      } 
+        .Menu_active{
+          background-color: rgb(113, 89, 124);
+          display: grid;   
+         }
+
+        .Menu{
+          background-color: azure;
+          display: none;   
+         }
+
+        .burger-menu
+        {
+          display: block;
+          cursor: pointer;
+        }
+        .ex-main{
+          display: grid;
+          justify-content: center;
+          align-items: center;
+          margin-top: 10rem;
+         }
+
+         .sr-main{
+          display: grid;
+          justify-content: center;
+          align-items: center;
+          margin-top: 10rem;
+         }
+       
+  
+  }
+  
