@@ -68,8 +68,7 @@
   }
 
   .sicon{
-    
-    
+       
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -279,7 +278,19 @@
           align-items: center;
           margin-top: 10rem;
          }
+
+         .sicon{
        
+          transform: translate(210px);
+          
+          
+          }
+          .home-img img{
+            height: 10rem;
+            width: 10rem;
+            border-radius: 40%;
+        
+          }
   
   }
   
