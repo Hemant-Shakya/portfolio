@@ -28,7 +28,7 @@ function Contact()
           <form onSubmit={onSubmit} className="contact-form">
             <h1>Contact Us</h1>
             <lebel for>Name : </lebel>
-            <input type="text" name="name"/><br/>
+            <input type="text" name="name" /><br/>
             <label for>Email id :</label> 
             <input type="email" name="email"/><br/>
             <label for>Message : </label>
@@ -39,3 +39,4 @@ function Contact()
     
 }
 export default Contact; 
+

@@ -1,11 +1,17 @@
 import React from "react";
 import img  from './images/myimage.jpeg'
+import Slider from "./Slider.jsx";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 function Home()
 {
     return(
         <>
         <div className="home-main">
             <div className="home-text">
+            <Slider/>
 
             <h2 >Hi, my name is...</h2>
             <h1 > Hemant Kumar Shakya </h1>
@@ -25,10 +31,32 @@ function Home()
         </div>
 
         <div>
-            <h1 style={{color:'gray'}}>Call Us</h1>
-            <h2 style={{color:'pink'}}>Address: Bank Colony near Army Public School Morar, Gwalior, Madhya Pradesh-474006</h2>
-            <h2 style={{color:'orange'}}>Mob: +91 8305996305</h2>
-            <h2 style={{color:'yellow'}}>Email: shakya.hk@gmail.com</h2>
+            <address>
+            <Container>
+                <Row style={{height:'5rem', textAlign:'center', color:'olive'}}>
+                   <Col><h2>Our Services</h2></Col>   
+                   <Col><h2>Contact Us</h2></Col>   
+                   
+                </Row>
+                <Row>
+                   <Col style={{lineHeight:'6rem', textAlign:'center'}}>
+                    <h4 >Website Designing</h4>
+                    <h4>Website Development</h4>
+                    <h4>Website Domain & Hosting</h4>
+                    <h4>eCommerce</h4>
+                   </Col>
+                  
+                   <Col style={{lineHeight:'6rem', textAlign:'center'}}>
+                    <h4>Harshita Tech Solution</h4>
+                   
+                    <h4>shakya.hk@gmail.com</h4>
+                   
+                    <h4>+91 8305996305 </h4>
+                   </Col>   
+                </Row>
+
+            </Container>
+            </address>
         </div>
         </>
        

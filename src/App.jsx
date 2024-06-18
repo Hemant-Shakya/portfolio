@@ -6,10 +6,11 @@ import About from './About';
 import Services from './Services';
 import Contact from "./Contact";
 import { RxHamburgerMenu } from "react-icons/rx";
-
-import {BrowserRouter, Routes, Route, Link, HashRouter} from 'react-router-dom';
+import {Routes, Route, Link, HashRouter} from 'react-router-dom';
 import Smi from "./Smi";
 import Experience from "./Experience";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -19,6 +20,7 @@ function App()
   return(
       <>
       <div>
+        
       <div>
         <img className='img' src={img} />
         {/* set state */}
@@ -26,7 +28,7 @@ function App()
         {/* set icon */}
         {active ? <RxHamburgerMenu /> : 'X'}
         </div>
-       
+        
         <HashRouter>
         {/* //set which class should be call when active state is true */}
           <div className= {active ? 'Menu':'Menu_active'}>
@@ -42,14 +44,15 @@ function App()
             <Route path="/experience" Component= {Experience}/>
             <Route path="/Services" Component= {Services}/>
             <Route path="/contact" Component= {Contact}/>
-
-          </Routes>
+           </Routes>
         </HashRouter>  
+       
       </div>
-      <div>
+      
+      
         <Smi/>
         
-      </div>
+      
       </div>
       </>
       );
