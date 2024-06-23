@@ -30,34 +30,50 @@ function Home()
             </div>
         </div>
 
-        <div>
-            <address>
-            <Container>
-                <Row style={{height:'5rem', textAlign:'center', color:'olive'}}>
-                   <Col><h2>Our Services</h2></Col>   
-                   <Col><h2>Contact Us</h2></Col>   
-                   
-                </Row>
-                <Row>
-                   <Col style={{lineHeight:'6rem', textAlign:'center'}}>
-                    <h4 >Website Designing</h4>
-                    <h4>Website Development</h4>
-                    <h4>Website Domain & Hosting</h4>
-                    <h4>eCommerce</h4>
-                   </Col>
-                  
-                   <Col style={{lineHeight:'6rem', textAlign:'center'}}>
-                    <h4>Harshita Tech Solution</h4>
-                   
-                    <h4>shakya.hk@gmail.com</h4>
-                   
-                    <h4>+91 8305996305 </h4>
-                   </Col>   
-                </Row>
-
-            </Container>
-            </address>
+        <br/>
+{/* responsive footer using css */}
+        <div className="footer">
+            <div>
+                <h2>Our Services</h2>
+                    <ul>
+                        <li> Website Designing</li>
+                        <li>Website Development</li>
+                        <li>Website Development</li>
+                        <li>eCommerce</li>
+                    </ul>
+            </div>     
+            <div>
+                   <h2>Contact Us</h2>
+                    <ul>
+                        <li>Harshita Tech Solution</li>
+                        <li>shakya.hk@gmail.com</li>
+                        <li>+91 8305996305 </li>
+                    </ul>
+            </div>  
+            
         </div>
+
+
+
+        
+        {/* responsive footer without css */}
+        {/* <Container>
+            <Row>
+                <Col>
+                <h1>Services1</h1>
+                </Col>
+                <Col>
+                <h1>Services2</h1>
+                </Col>
+                <Col>
+                <h1>Services3</h1>
+                </Col>
+                <Col>
+                <h1>Services4</h1>
+                </Col>
+            </Row>
+        </Container> */}
+
         </>
        
     )

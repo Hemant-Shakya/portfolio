@@ -31,7 +31,7 @@ function App()
         
         <HashRouter>
         {/* //set which class should be call when active state is true */}
-          <div className= {active ? 'Menu':'Menu_active'}>
+          <div className= {active ? 'Menu' :'Menu_active'}>
           <Link to = "/" className="nav"> Home</Link>
           <Link to = "/about" className="nav"> About</Link>
           <Link to = "/experience" className="nav"> Experience</Link>

@@ -1,8 +1,11 @@
 
 *{
-  margin-left: 1rem;
+  margin-left: 1rem; 
   margin-right: 1rem;
   } 
+  html {
+    scroll-behavior: smooth;
+  }
   
   .img{
       height: 5rem;
@@ -238,14 +241,30 @@
     text-align: center;
    }
 
-   address {
-    background-color: black;
+   .footer{
+   background-color: black;
     color: white;
-    margin-top: 3rem;
     display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
 
+    
+    
+  }
+
+  .footer h2{
+    text-align: center;
+       
+  }
+
+  .footer ul {
+    text-align: center; 
+  }
+
+  .footer ul li{
+    list-style-position: inside;
     }
-
+  
    
    
 
@@ -332,9 +351,15 @@
             width: 95%;
             margin: auto auto;
             margin-top: 5rem; 
+
           
         
            }
-  
-  }
+          .about{
+            display: grid;
+           gap:25px ;
+            background-color: antiquewhite;
+           }
+
+}
   
