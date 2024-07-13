@@ -9,7 +9,6 @@ function Services()
 {
     return(
         <>
-        
         <div className="sr-main">
           <div><a href="https://vitedemo1.netlify.app"><img className='sr-1' src={img1} /> </a> 
           <h2>Number with redux programming</h2>

@@ -45,7 +45,7 @@ function Home()
             <div>
                    <h2>Contact Us</h2>
                     <ul>
-                        <li>Harshita Tech Solution</li>
+                        <li>Harshita Tech Solutions</li>
                         <li>shakya.hk@gmail.com</li>
                         <li>+91 8305996305 </li>
                     </ul>

@@ -2,7 +2,9 @@
 *{
   margin-left: 1rem; 
   margin-right: 1rem;
+  box-sizing: border-box;
   } 
+  
   html {
     scroll-behavior: smooth;
   }
@@ -14,21 +16,21 @@
   }
   
   .nav{
-      font-size: 2rem;
+      font-size: 1.5rem;
       text-decoration: none;
-      color: greenyellow;
+      color: rgb(243, 245, 241);
       
       
      
       }
   
-  .Menu_active{
+  .Menu{
       
       display: flex;
       justify-content: center;
       justify-content: space-evenly;
-      background-color: rgb(113, 89, 124);
-      line-height: 4rem;
+      background-color: rgb(96, 92, 97);
+      line-height: 2.5rem;
       overflow: hidden;
       position: sticky;
       top: 0;
@@ -128,6 +130,19 @@
       width: 250px;
 
     }
+    .sicon .e 
+    {
+      /* border: 1px solid rgb(23, 191, 74); */
+      background-color: rgb(225, 19, 60);
+      border-radius: 2px;
+      width: 250px;
+
+    }
+    .sicon .e a{
+      text-decoration: none;
+      color: rgb(247, 245, 245);
+      
+    }
 
     .sicon .f:hover{
         transform: translate(-150px,0);
@@ -146,6 +161,12 @@
     transition: 1s;
     transition-property: transform;
     }
+
+    .sicon .e:hover{
+      transform: translate(-150px,0);
+      transition: 1s;
+      transition-property: transform;
+      }
     
 
     .about-1
@@ -307,8 +328,6 @@
 
          .nav{
          font-size: medium;
-          
-           
          }
 
         .burger-menu
@@ -316,7 +335,8 @@
           display: block;
           cursor: pointer;
         }
-        .ex-main{
+
+       .ex-main{
           display: grid;
           justify-content: center;
           align-items: center;
